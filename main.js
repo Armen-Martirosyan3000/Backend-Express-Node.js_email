@@ -44,8 +44,8 @@ function send_node_email(email) {
     });
 
     const mailOptions = {
-        from: from_email,
-        to: email,
+        from: from_email, // սա այն մեյլ է, սայտի տիրոջ մեյլը որից նամակ է գնում այն մարդուն ով իր մեյլը գրում է ինփութում
+        to: email, // սա այսպես թողում ենք
         subject: 'Welcome to our website',
         text: 'Thanks for registering'
     };
